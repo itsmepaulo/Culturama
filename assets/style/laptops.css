@@ -95,4 +95,23 @@
         align-self: flex-end;
 
     }
+
+    /* RODAPÉ */
+    
+    .rodape{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .rodape__logo{
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .rodape__logo>h4{
+        background-position: left;
+
+    }
 }
